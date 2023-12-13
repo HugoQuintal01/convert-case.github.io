@@ -1,0 +1,108 @@
+@import "variables";
+
+body{
+    background: linear-gradient(to right, #14213D, #091227);
+    
+}
+
+
+
+.titleDiv{
+    margin-top: 50px;
+
+    h1{
+        font-size: 45px;
+        text-align: center;
+        color: $white;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+}
+
+.mainClass{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 0 50px;
+}
+
+
+
+.mainClass .textAreaDiv{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 50px;
+    padding-bottom: 20px;
+
+    h3{
+        font-size: 20px;
+        box-sizing: border-box;
+        color: $white;
+    }
+
+    textarea{
+        margin-top: 20px;
+        padding: 10px;
+        background-color: transparent;
+        border: 1px solid $white;
+        color: $white;
+    }
+
+}
+
+.selectType{
+    margin-top: 50px;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+
+
+    .itemSelector{
+        margin: 0 20px;
+        padding: 10px;
+        border: 1px solid $white;
+        box-sizing: border-box;
+        cursor: pointer;
+        transition-duration: .3s;
+        color: $white;
+
+        &:hover{
+            background-color: $yellow;
+            border-color: $yellow;
+            color: $white;
+            box-shadow: rgba(27, 21, 21, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        }
+
+    }
+}
+
+#animation {
+    color: #FCA311;
+    animation: changeColor 5s linear infinite;
+    text-decoration: underline;
+  }
+  
+  @keyframes changeColor {
+    0% {
+      color: #FCA311;
+    }
+    20% {
+      color: #E5E5E5;
+    }
+    40% {
+      color: #FFFFFF;
+    }
+    60% {
+      color: #F3B147;
+    }
+    80% {
+      color: #E4C594;
+    }
+    100% {
+      color: #FCA311;
+    }
+  }
+  
+  

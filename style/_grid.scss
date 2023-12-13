@@ -1,0 +1,195 @@
+/* Define the width of each column */
+.col {
+    width: 8.33333333%; /* 100% / 12 columns */
+    float: left;
+  }
+  
+  /* Define the width of each column based on the number of columns */
+  .col-1 { width: 8.33333333%; } /* 1 column / 12 columns */
+  .col-2 { width: 16.66666667%; } /* 2 columns / 12 columns */
+  .col-3 { width: 25%; } /* 3 columns / 12 columns */
+  .col-4 { width: 33.33333333%; } /* 4 columns / 12 columns */
+  .col-5 { width: 41.66666666%; } /* 5 columns / 12 columns */
+  .col-6 { width: 50%; } /* 6 columns / 12 columns */
+  .col-7 { width: 58.33333333%; } /* 7 columns / 12 columns */
+  .col-8 { width: 66.66666667%; } /* 8 columns / 12 columns */
+  .col-9 { width: 75%; } /* 9 columns / 12 columns */
+  .col-10 { width: 83.33333333%; } /* 10 columns / 12 columns */
+  .col-11 { width: 91.66666666%; } /* 11 columns / 12 columns */
+  .col-12 { width: 100%; } /* 12 columns / 12 columns */
+  .gridrow { 
+        padding: 0 10%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+  
+  body{
+    overflow-x: hidden;
+    position: relative;
+  }
+
+
+  // Large Desktop
+  @media screen and (min-width: 1500px) {
+    .col-ld {
+      width: 8.33333333%; /* 100% / 12 columns */
+      float: left;
+    }
+    
+    /* Define the width of each column based on the number of columns */
+    .col-1-ld { width: 8.33333333%; } /* 1 column / 12 columns */
+    .col-2-ld { width: 16.66666667%; } /* 2 columns / 12 columns */
+    .col-3-ld { width: 25%; } /* 3 columns / 12 columns */
+    .col-4-ld { width: 33.33333333%; } /* 4 columns / 12 columns */
+    .col-5-ld { width: 41.66666666%; } /* 5 columns / 12 columns */
+    .col-6-ld { width: 50%; } /* 6 columns / 12 columns */
+    .col-7-ld { width: 58.33333333%; } /* 7 columns / 12 columns */
+    .col-8-ld { width: 66.66666667%; } /* 8 columns / 12 columns */
+    .col-9-ld { width: 75%; } /* 9 columns / 12 columns */
+    .col-10-ld { width: 83.33333333%; } /* 10 columns / 12 columns */
+    .col-11-ld { width: 91.66666666%; } /* 11 columns / 12 columns */
+    .col-12-ld { width: 100%; } /* 12 columns / 12 columns */
+    .gridrow-ld { 
+          padding: 0 10%;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-wrap: wrap;
+          box-sizing: border-box;
+      }
+  }
+
+// Desktop
+@media screen and (min-width: 1300px) {
+  .col-d {
+    width: 8.33333333%; /* 100% / 12 columns */
+    float: left;
+  }
+  
+  /* Define the width of each column based on the number of columns */
+  .col-1-d { width: 8.33333333%; } /* 1 column / 12 columns */
+  .col-2-d { width: 16.66666667%; } /* 2 columns / 12 columns */
+  .col-3-d { width: 25%; } /* 3 columns / 12 columns */
+  .col-4-d { width: 33.33333333%; } /* 4 columns / 12 columns */
+  .col-5-d { width: 41.66666666%; } /* 5 columns / 12 columns */
+  .col-6-d { width: 50%; } /* 6 columns / 12 columns */
+  .col-7-d { width: 58.33333333%; } /* 7 columns / 12 columns */
+  .col-8-d { width: 66.66666667%; } /* 8 columns / 12 columns */
+  .col-9-d { width: 75%; } /* 9 columns / 12 columns */
+  .col-10-d { width: 83.33333333%; } /* 10 columns / 12 columns */
+  .col-11-d { width: 91.66666666%; } /* 11 columns / 12 columns */
+  .col-12-d { width: 100%; } /* 12 columns / 12 columns */
+  .gridrow-d { 
+        padding: 0 10%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+}
+
+// Laptop
+@media screen and (min-width: 1200px) {
+  .col-d {
+    width: 8.33333333%; /* 100% / 12 columns */
+    float: left;
+  }
+  
+  /* Define the width of each column based on the number of columns */
+  .col-1-l { width: 8.33333333%; } /* 1 column / 12 columns */
+  .col-2-l { width: 16.66666667%; } /* 2 columns / 12 columns */
+  .col-3-l { width: 25%; } /* 3 columns / 12 columns */
+  .col-4-l { width: 33.33333333%; } /* 4 columns / 12 columns */
+  .col-5-l { width: 41.66666666%; } /* 5 columns / 12 columns */
+  .col-6-l { width: 50%; } /* 6 columns / 12 columns */
+  .col-7-l { width: 58.33333333%; } /* 7 columns / 12 columns */
+  .col-8-l { width: 66.66666667%; } /* 8 columns / 12 columns */
+  .col-9-l { width: 75%; } /* 9 columns / 12 columns */
+  .col-10-l { width: 83.33333333%; } /* 10 columns / 12 columns */
+  .col-11-l { width: 91.66666666%; } /* 11 columns / 12 columns */
+  .col-12-l { width: 100%; } /* 12 columns / 12 columns */
+  .gridrow-l { 
+        padding: 0 10%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+}
+
+// Horizontal Tablet
+@media screen and (max-width: 1200px) {
+  .col-ht {
+    width: 16.66666666%; /* 100% / 12 columns */
+    float: left;
+  }
+  
+  /* Define the width of each column based on the number of columns */
+  .col-1-ht { width: 16.66666666%; } /* 1 column / 12 columns */
+  .col-2-ht { width: 33.33333333%; } /* 2 columns / 12 columns */
+  .col-3-ht { width: 50%; } /* 3 columns / 12 columns */
+  .col-4-ht { width: 66.66666667%; } /* 4 columns / 12 columns */
+  .col-5-ht { width: 83.33333333%; } /* 5 columns / 12 columns */
+  .col-6-ht { width: 100%; } /* 6 columns / 12 columns */
+  .gridrow-ht { 
+        padding: 0 50px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+}
+
+// Tablet
+@media screen and (max-width: 900px) {
+  .col-t {
+    width: 16.66666666%; /* 100% / 12 columns */
+    float: left;
+  }
+  
+  /* Define the width of each column based on the number of columns */
+  .col-1-t { width: 16.66666666%; } /* 1 column / 12 columns */
+  .col-2-t { width: 33.33333333%; } /* 2 columns / 12 columns */
+  .col-3-t { width: 50%; } /* 3 columns / 12 columns */
+  .col-4-t { width: 66.66666667%; } /* 4 columns / 12 columns */
+  .col-5-t { width: 83.33333333%; } /* 5 columns / 12 columns */
+  .col-6-t { width: 100%; } /* 6 columns / 12 columns */
+  .gridrow-t { 
+        padding: 0 50px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+}
+
+// Mobile
+@media screen and (max-width: 600px) {
+  .col-m {
+    width: 16.66666666%; /* 100% / 12 columns */
+    float: left;
+  }
+  
+  /* Define the width of each column based on the number of columns */
+  .col-1-m { width: 16.66666666%; } /* 1 column / 12 columns */
+  .col-2-m { width: 33.33333333%; } /* 2 columns / 12 columns */
+  .col-3-m { width: 50%; } /* 3 columns / 12 columns */
+  .col-4-m { width: 66.66666667%; } /* 4 columns / 12 columns */
+  .col-5-m { width: 83.33333333%; } /* 5 columns / 12 columns */
+  .col-6-m { width: 100%; } /* 6 columns / 12 columns */
+  .gridrow-m { 
+        padding: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+}

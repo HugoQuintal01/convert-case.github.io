@@ -1,0 +1,48 @@
+
+// Large Desktop
+@media screen and (min-width: 1500px) {
+
+}
+
+// Desktop
+@media screen and (min-width: 1300px) {
+
+}
+
+// Laptop
+@media screen and (min-width: 1200px) {
+
+}
+
+// Horizontal Tablet
+@media screen and (max-width: 1200px) {
+
+}
+
+// Tablet
+@media screen and (max-width: 900px) {
+
+}
+
+// Mobile
+@media screen and (max-width: 600px) {
+
+    body .mainClass .textAreaDiv{
+        padding: 20px;
+        margin-top: 30px;
+
+        h3{
+            text-align: center;
+        }
+    }
+
+    body .selectType{
+        flex-wrap: wrap;
+        margin-top: 20px;
+
+        .itemSelector{
+            margin: 5px 5px;
+        }
+    }
+
+}

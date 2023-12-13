@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Convert Case</title>
+</head>
+<body>
+
+    <div class="mainDiv">
+        <div class="titleDiv col-12 gridrow gridrow-m gridrow-t">
+            <h1 class="col-12">Convert <span id="animation">Case</span></h1>
+        </div>
+        
+        <div class="mainClass col-12 gridrow gridrow-m gridrow-t">
+            <div class="textAreaDiv gridrow-t gridrow-m original col-6 col-6-t col-6-m">
+        
+                <h3 class="col-12">Original Text</h3>
+                <textarea class="col-12" name="getOriginalText" id="getOriginalText" cols="30" rows="10"></textarea>
+            
+            </div>
+            <div class="textAreaDiv gridrow-t gridrow-m converted col-6 col-6-t col-6-m">
+            
+                <h3 class="col-12">Converted Text</h3>
+                <textarea class="col-12" name="getConvertedText" id="getConvertedText" cols="30" rows="10"></textarea>
+            
+            </div>
+        </div>
+        
+        <div class="selectType col-12 col-6-t col-6-m gridrow gridrow-m gridrow-t">
+            <span class="itemSelector col-6-t col-2-m" id="sentence">Sentence Case</span>
+            <span class="itemSelector col-6-t col-2-m" id="lower">lower case</span>
+            <span class="itemSelector col-6-t col-2-m" id="upper">UPPER CASE</span>
+            <span class="itemSelector col-6-t col-2-m" id="capitalized">Capitalized Case</span>
+            <span class="itemSelector col-6-t col-2-m" id="copyButton">Copy Text</span>
+        </div>
+    </div>
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
